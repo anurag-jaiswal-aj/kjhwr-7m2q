@@ -11,9 +11,9 @@ An analytics platform built for an energy utility's day-ahead electricity procur
 - **Live Deployed Web Application:** [https://kjhwr-7m2q.vercel.app](https://kjhwr-7m2q.vercel.app/)
 - **Live Deployed REST API:** [https://kjhwr-7m2q.onrender.com/api](https://kjhwr-7m2q.onrender.com/api) *(Health Check: [`https://kjhwr-7m2q.onrender.com/api/health`](https://kjhwr-7m2q.onrender.com/api/health))*
 - **Public GitHub Repository:** [https://github.com/anurag-jaiswal-aj/kjhwr-7m2q](https://github.com/anurag-jaiswal-aj/kjhwr-7m2q)
-- **Unlisted YouTube Video Demonstration:** `[PENDING: Insert unlisted YouTube video URL prior to form submission, e.g., https://youtu.be/xxxxxxxxxxx]`
-  - *Part 1 (0:00–5:00):* Customer pitch and executive analytics portal walkthrough.
-  - *Part 2 (5:00–10:00):* Technical lead review of architecture, data engineering, statistical invariants, and containerization.
+- **Unlisted YouTube Video Demonstration:** [https://youtu.be/9WV7mk6LWbw](https://youtu.be/9WV7mk6LWbw) *(Duration: ~8:58)*
+  - *Part 1:* Customer pitch and live dashboard walkthrough for an energy utility day-ahead electricity procurement desk.
+  - *Part 2:* Technical walkthrough covering architecture, data ingestion, zero-lookahead forecast selection, and test suite.
 
 ---
 
