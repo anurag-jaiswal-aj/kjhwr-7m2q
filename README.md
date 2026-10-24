@@ -8,14 +8,10 @@ An analytics platform built for an energy utility's day-ahead electricity procur
 
 ## Submission Deliverables & Live Links
 
-> [!IMPORTANT]
-> The URLs below contain clearly marked TODO placeholders that must be populated upon completing cloud deployment and video recording prior to form submission.
-
-- **Live Deployed Web Application:** `[TODO: Insert deployed Vercel/Heroku frontend URL, e.g., https://your-project.vercel.app]`
-- **Live Deployed REST API:** `[TODO: Insert deployed FastAPI backend URL, e.g., https://your-api.onrender.com/api]`
-- **Public GitHub Repository (Anonymous Name):** `[TODO: Insert public GitHub repository URL, e.g., https://github.com/anonymous-user/wind-intel-2026]`
-  *(Per challenge specifications, this repository must use an anonymous name without personal identifying branding)*
-- **Unlisted YouTube Video Demonstration:** `[TODO: Insert unlisted YouTube video URL, e.g., https://youtu.be/xxxxxxxxxxx]`
+- **Live Deployed Web Application:** [https://kjhwr-7m2q.vercel.app](https://kjhwr-7m2q.vercel.app/)
+- **Live Deployed REST API:** [https://kjhwr-7m2q.onrender.com/api](https://kjhwr-7m2q.onrender.com/api) *(Health Check: [`https://kjhwr-7m2q.onrender.com/api/health`](https://kjhwr-7m2q.onrender.com/api/health))*
+- **Public GitHub Repository:** [https://github.com/anurag-jaiswal-aj/kjhwr-7m2q](https://github.com/anurag-jaiswal-aj/kjhwr-7m2q)
+- **Unlisted YouTube Video Demonstration:** `[PENDING: Insert unlisted YouTube video URL prior to form submission, e.g., https://youtu.be/xxxxxxxxxxx]`
   - *Part 1 (0:00–5:00):* Customer pitch and executive analytics portal walkthrough.
   - *Part 2 (5:00–10:00):* Technical lead review of architecture, data engineering, statistical invariants, and containerization.
 
@@ -92,6 +88,9 @@ Under the baseline analytical assumption (D-1 11:00 UTC decision cutoff modeled 
 | **MBE ($F - A$)** | **+1,840.30 MW** | **+1,840.30 MW** | Systematic meteorological over-forecasting |
 
 *Sign convention: $\text{Error} = \text{Forecast} - \text{Actual}$. Positive MBE confirms that day-ahead forecasts systematically exceeded actual generation across January 2026.*
+
+> [!NOTE]
+> **Commercial Interpretation Boundary:** Demonstrating that national wind forecasts exceeded actual generation (+1,840.30 MW MBE) does *not* prove utility financial loss or net energy shortfalls. Under Elexon Balancing and Settlement Code (BSC) rules, financial exposure depends on half-hourly System Buy/Sell Prices (cashout prices), supplier retail demand profile, and the participant's overall portfolio imbalance across all technologies.
 
 ---
 
