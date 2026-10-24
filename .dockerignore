@@ -1,0 +1,31 @@
+# Version control
+.git
+.gitignore
+
+# Python virtual environment & cache
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+htmlcov
+
+# Node & Frontend build artifacts
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/.oxlintrc.json
+
+# IDE & OS files
+.DS_Store
+.idea
+.vscode
+*.swp
+*.swo
+
+# Temporary scratch and docs
+scratch/
+docs/
